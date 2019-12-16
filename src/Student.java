@@ -13,7 +13,7 @@ public class Student {
 
   public Student() {
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter the students first name: ");
+    System.out.print("\nEnter the students first name: ");
     this.firstName = in.nextLine();
 
     System.out.print("Enter the students last name: ");
